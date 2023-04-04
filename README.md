@@ -30,14 +30,14 @@ Before using the MQ135 sensor, it is important to calibrate it to get accurate r
 |:---------:|:-----------:|:---------:|
 | VCC       | Power       | 3.3V      |
 | GND       | Ground      | GND       |
-| OUT       | Analog Out  | GPIO34    |
+| OUT       | Analog Out  | GPIO34(ADC)    |
 
 | OLED Pin | Pin Function | ESP32 Pin |
 |:--------:|:-----------:|:---------:|
 | VCC      | Power       | 3.3V      |
 | GND      | Ground      | GND       |
-| SCL      | Clock       | GPIO22    |
-| SDA      | Data        | GPIO21    |
+| SCL      | Clock       | GPIO22(SCL)    |
+| SDA      | Data        | GPIO21(SDA)    |
 
 ## Usage
 
