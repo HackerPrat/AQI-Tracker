@@ -24,9 +24,9 @@ Before using the MQ135 sensor, it is important to calibrate it to get accurate r
 |-----------|-----------|
 | VCC       | 3.3V      |
 | GND       | GND       |
-| OUT       | ADC Pin (for example, GPIO34) |
+| OUT       | ADC Pin (GPIO34) |
 
-| OLED Pin | ESP32 Pin (can also be labeled as) |
+| OLED Pin | ESP32 Pin |
 |---------|----------------------------------|
 | VCC     | 3.3V                             |
 | GND     | GND                              |
