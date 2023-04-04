@@ -5,8 +5,14 @@ AQI Tracker is a project that lets you monitor the air quality in your environme
 
 ## Prerequisites
 
+To use AQI Tracker, you'll need to have the following installed:
+
 - [Arduino IDE](https://www.arduino.cc/en/software)
+- [Adafruit_GFX library](https://github.com/adafruit/Adafruit-GFX-Library)
 - [Adafruit_SSD1306 library](https://github.com/adafruit/Adafruit_SSD1306)
+- [Wire library](https://www.arduino.cc/en/reference/wire)
+
+You can download and install these libraries via the Arduino IDE Library Manager.
 
 ## Calibration
 
@@ -20,18 +26,18 @@ Before using the MQ135 sensor, it is important to calibrate it to get accurate r
 
 ## Wiring
 
-| MQ135 Pin | ESP32 Pin |
-|-----------|-----------|
-| VCC       | 3.3V      |
-| GND       | GND       |
-| OUT       | GPIO34(ADC) |
+| MQ135 Pin | Pin Function | ESP32 Pin |
+|:---------:|:-----------:|:---------:|
+| VCC       | Power       | 3.3V      |
+| GND       | Ground      | GND       |
+| OUT       | Analog Out  | GPIO34    |
 
-| OLED Pin | ESP32 Pin |
-|---------|----------------------------------|
-| VCC     | 3.3V                             |
-| GND     | GND                              |
-| SCL     | GPIO 22 (SCL)                    |
-| SDA     | GPIO 21 (SDA)                    |
+| OLED Pin | Pin Function | ESP32 Pin |
+|:--------:|:-----------:|:---------:|
+| VCC      | Power       | 3.3V      |
+| GND      | Ground      | GND       |
+| SCL      | Clock       | GPIO22    |
+| SDA      | Data        | GPIO21    |
 
 ## Usage
 
